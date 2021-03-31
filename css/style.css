@@ -1130,7 +1130,6 @@ article .content blockquote p {
 article .content blockquote:before {
   margin-right: 0.25em;
   color: #ab2251;
-  content: "\201C";
   vertical-align: -0.4em;
   font-size: 2em;
   line-height: 0.1em;
