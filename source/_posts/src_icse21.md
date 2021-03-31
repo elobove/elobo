@@ -1,7 +1,8 @@
 ---
 title: Let's not make a fuzz about it (extended abstract)
-date: 31-03-2021
+date: 2021-05-25 10:00:00
 tags:
+venue: SRC@ICSE
 ---
 
 > 43rd International Conference on Software Engineering
