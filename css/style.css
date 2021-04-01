@@ -1033,7 +1033,7 @@ body {
 .post-list .post-item {
   margin-bottom: 1rem;
   margin-left: 0;
-  list-style-type: none;
+  font-size: 14px;
 }
 .post-list .post-item .meta {
   display: block;
@@ -1050,6 +1050,15 @@ body {
   .post-list .post-item .meta {
     text-align: left;
   }
+}
+.post-table {
+  table-layout: auto;
+  font-size: 14px;
+}
+.post-table .cell {
+  white-space: nowrap;
+  min-width: 80px;
+  color: #666;
 }
 .project-list {
   padding: 0;
@@ -1202,17 +1211,17 @@ article .content .caption {
     content: "|";
   }
 }
-#archive .post-year {
-  list-style-type: none;
-}
+#archive .post-year,
 #archive .post-list {
   padding: 0;
 }
+#archive .post-year .post-item,
 #archive .post-list .post-item {
   margin-bottom: 1rem;
   margin-left: 0;
-  list-style-type: none;
+  font-size: 14px;
 }
+#archive .post-year .post-item .meta,
 #archive .post-list .post-item .meta {
   display: block;
   margin-right: 16px;
@@ -1229,6 +1238,13 @@ article .content .caption {
   #archive .post-list .post-item .meta {
     text-align: left;
   }
+}
+#archive .post-table .cell,
+#archive table-layout: auto .cell,
+#archive font-size: 14px .cell {
+  white-space: nowrap;
+  min-width: 80px;
+  color: #666;
 }
 .blog-post-comments {
   margin-top: 4rem;
